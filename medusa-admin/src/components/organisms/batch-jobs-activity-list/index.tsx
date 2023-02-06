@@ -227,7 +227,7 @@ const BatchJobActivityCard = (props: { batchJob: BatchJob }) => {
 
   return (
     <ActivityCard
-      title={store?.name ?? "Medusa Team"}
+      title={store?.name ?? "Inventorify Team"}
       icon={<MedusaIcon className="mr-3" size={20} />}
       relativeTimeElapsed={relativeTimeElapsed.rtf}
       date={batchJob.created_at}

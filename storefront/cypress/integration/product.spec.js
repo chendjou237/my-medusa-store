@@ -2,7 +2,7 @@ describe("Product page", () => {
   it("fetches product with handle [t-shirt]", () => {
     cy.visit("/products/t-shirt")
 
-    cy.get("h1").contains("Medusa T-Shirt")
+    cy.get("h1").contains("Inventorify T-Shirt")
   })
 
   it("adds a product to the cart", () => {

@@ -26,14 +26,14 @@ const testProduct: Pick<Product, "title" | "id" | "thumbnail"> & {
   }[]
 } = {
   id: "prod_01FY6FS3VB39G5GPB75S7RYQW6",
-  title: "Medusa Sweatshirt",
+  title: "Inventorify Sweatshirt",
   thumbnail:
     "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatshirt-vintage-front.png",
   variants: [
     {
       id: "variant_01FY6FS3VWFWNQF8WSP130F3TX",
       title: "BLACK / S",
-      sku: "MEDUSA-S",
+      sku: "INVENTORIFY-S",
       prices: [
         {
           id: "ma_01FY6FS3VZ7C0NHWMYA243KQXV",
@@ -50,7 +50,7 @@ const testProduct: Pick<Product, "title" | "id" | "thumbnail"> & {
     {
       id: "variant_01FY6FS3WAJJRHAW5J901Y8YM9",
       title: "BLACK / M",
-      sku: "MEDUSA-M",
+      sku: "INVENTORIFY-M",
       prices: [
         {
           id: "ma_01FY6FS3WD3928VCK53ZQ3NSD7",
@@ -62,7 +62,7 @@ const testProduct: Pick<Product, "title" | "id" | "thumbnail"> & {
     {
       id: "variant_01FY6FS3WT9EN0GVGWDPCBTWZR",
       title: "BLACK / L",
-      sku: "MEDUSA-L",
+      sku: "INVENTORIFY-L",
       prices: [
         {
           id: "ma_01FY6FS3WYWP598C6SNX5AM6WY",
@@ -84,7 +84,7 @@ const testProduct: Pick<Product, "title" | "id" | "thumbnail"> & {
     {
       id: "variant_01FY6FS3XBQ64A4TBX0N8NGZZK",
       title: "BLACK / XL",
-      sku: "MEDUSA-XL",
+      sku: "INVENTORIFY-XL",
       prices: [],
     },
   ],

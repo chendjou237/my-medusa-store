@@ -31,8 +31,8 @@ const FooterNav = () => {
               ))}
             </ul>
           </div>
-          <div className="flex flex-col gap-y-2">
-            <span className="text-base-semi">Medusa</span>
+          {/* <div className="flex flex-col gap-y-2">
+            <span className="text-base-semi">Inventorify</span>
             <ul className="grid grid-cols-1 gap-y-2">
               <li>
                 <a
@@ -62,7 +62,7 @@ const FooterNav = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="flex flex-col-reverse gap-y-4 justify-center xsmall:items-center xsmall:flex-row xsmall:items-end xsmall:justify-between">

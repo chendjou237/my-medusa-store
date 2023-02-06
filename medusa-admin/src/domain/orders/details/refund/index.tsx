@@ -99,7 +99,7 @@ const RefundMenu = ({
                 <div className="flex flex-col">
                   <span className="inter-small-semibold">Attention!</span>
                   One or more of your payments is a system payment. Be aware,
-                  that captures and refunds are not handled by Medusa for such
+                  that captures and refunds are not handled by Inventorify for such
                   payments.
                 </div>
               </div>

@@ -6,7 +6,7 @@ const SettingsOverview: React.FC<React.PropsWithChildren> = ({ children }) => {
     <div>
       <PageDescription
         title={"Settings"}
-        subtitle={"Manage the settings for your Medusa store"}
+        subtitle={"Manage the settings for your Inventorify store"}
       />
       <div className="grid medium:grid-cols-2 auto-cols-fr grid-cols-1 gap-x-base gap-y-xsmall">
         {children}

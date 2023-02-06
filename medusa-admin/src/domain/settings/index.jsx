@@ -57,13 +57,13 @@ const SettingsIndex = () => {
       />
       <SettingsCard
         heading={"The Team"}
-        description={"Manage users of your Medusa Store"}
+        description={"Manage users of your Inventorify Store"}
         icon={<UsersIcon />}
         to={`/a/settings/team`}
       />
       <SettingsCard
         heading={"Personal Information"}
-        description={"Manage your Medusa profile"}
+        description={"Manage your Inventorify profile"}
         icon={<HappyIcon />}
         to={`/a/settings/personal-information`}
       />
